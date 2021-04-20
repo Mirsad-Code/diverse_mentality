@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Contact</title>
+        <link rel="stylesheet" href="styles.css" type="text/css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    </head>
+
+    <body>
+        <div class="bar">
+            <a href="index.html"><img class="logo" src="diverse-mentality.png" alt="logo"></a>
+        </div>
+
+        <!-- hamburger menu -->
+         <div class="navigation">
+          <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+          <label for="navi-toggle" class="navigation__button">
+            <span class="navigation__icon">&nbsp;</span>
+          </label>
+          <div class="navigation__background">&nbsp;</div>
+
+          <nav class="navigation__nav">
+            <ul class="navigation__list">
+                <li class="navigation__item"><a href="index.html" class="navigation__link">Home</a></li>
+                <li class="navigation__item"><a href="videos.html" class="navigation__link">Videos</a></li>
+                <li class="navigation__item"><a href="#" class="navigation__link">Store</a></li>
+                <li class="navigation__item"><a href="#" class="navigation__link">Podcast</a></li>
+                <li class="navigation__item"><a href="#" class="navigation__link">Support Us</a></li>
+                <li class="navigation__item"><a href="contact.html" class="navigation__link">Contact</a></li>
+            </ul>
+          </nav>
+
+        </div>
+        <!-- end hamburger menu -->
+
+                <!-- <img src="contact.jpg" align="right"> -->
+
+
+        <!-- START OF FORM -->
+        <!-- <h2>Contact Us</h2> -->
+        <div class="form-container">
+          <form action="#">
+        <!--     FORM ACTION will go to a FAKE Thank You page if you want to create one, OR remove it so hiting the submit button doesn't break the page -->
+               <p> Message us with any questions, or any suggestions that you would like to see on the videos. Let us know if you want to join us in the Podcast. Tell us your favorite Podcast episode and artist. <br>
+               We will respond as soon as we can, Thank you for your support!</p>
+               <br>
+               <label>Your Name: <br>
+               <input type="text" id="name" name="name" required></label>
+
+               <label>Email: <br>
+               <input type="email" id="email" name="email" required></label>
+
+               <label>Message: <br>
+               <textarea id="message" required></textarea></label>
+
+               <label id="newsletter"> <input type="checkbox" class="cursor" id="news" name="news" checked> Receive our newsletters</label>
+
+               <button type="submit" class="cursor" value="Submit">Submit</button>
+
+           </form>
+        </div> <!-- END OF CONTAINER DIV -->
+        <!-- END OF FORM -->
+
+        <footer>
+            <p> &copy; 2020 DIVERSE MENTALITY </p>
+        </footer>
+    </body>
+</html>
