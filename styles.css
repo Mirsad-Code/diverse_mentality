@@ -12,7 +12,8 @@ body{
     height: 100%;
 }
 .bar img{
-    width: 65px;
+    width: 85px;
+
 }
 .bar{
     background-color: white;
@@ -20,24 +21,41 @@ body{
     height: 83px;
 
 }
+.bar2{
+
+    padding: .25px 0;
+    height: 20%%;
+    width: 250px
+}
+.storeopen{
+    width: 14.89%;
+}
+h2 {
+    width: 100%;
+    text-align:center;
+}
 .hero-image{
     height: 80vh;
-    background-image: url("diverse-mentality-white.png");
+    background-image: url("dmlogos/main-logo-white.png");
     background-repeat: no-repeat, repeat;
     background-position: center;
     /* background-attachment: fixed; */
-    background-size: 300px;
+    background-size: 200%;
 }
 
 img{
-    width: 100%;
+    width: 671.5%;
     display: block;
     margin:1% auto;
+    background: White;
 
 }
-
-    /* float: right;
-     margin: 0 0 0 15px; */
+.iframe{
+    position: right;
+}
+.video{
+    position: right;
+}
 /* menu */
 
 .container {
@@ -66,9 +84,12 @@ main{
     background: rgba(181, 181, 181, 0.5);
     padding:23px;
 }
+.video{
+    position: center;
+}
 .videoWrapper {
   position: relative;
-  padding-bottom: 56.25%; /* 16:9 */
+  padding-bottom: 50%; /* 16:9 */
   height: 0;
 }
 .videoWrapper iframe {
@@ -211,8 +232,8 @@ footer {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 10px;
-    /* Center icons */
-    /* justify-content:center; */
+    /* Center icons
+    justify-content:center; */
 }
 
 .social-icons a {
@@ -247,7 +268,6 @@ footer {
     display:block;
     margin:auto;
 }
-
 
 
 /* -----!!Particles!!----- */
@@ -1155,3 +1175,8 @@ footer {
        margin-bottom: 2%;
      }
    }
+    .wrapper-container{
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
